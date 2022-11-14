@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Medidor de humedad</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header><i class="bx bx-left-arrow-alt"></i>Humedad App</header>
+        <section class="entry">
+            <p class="info-txt">Ingrese una ciudad válida</p>
+            <input type="text"spellcheck="false" placeholder="Ingresa la ciudad" required></input>
+            <div class="separator"></div>
+            <button>Obtener la humedad de mi ubicación</button>
+        </section>
+        <section class="humid-part">
+        <img src="#" alt="Humedad Icon"></img>
+        <div class="moist">
+        <span class="num">_</span>
+        <span class="porc">%</span>
+        </div>
+        <div class="bottom">
+        <div class="humid">Baja Humedad</div>
+        <div class="location">
+            <i class="bx bx-map"></i>
+            <span>_, _</span>
+        </>
+        </div>
+    </section>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
